@@ -1,0 +1,64 @@
+Question-1:
+
+Create a dataset containing temperature and electricity consumption.
+Train a simple linear regression model.
+Divide the data into training and testing sets.
+Print the slope and intercept.
+Calculate MAE, MSE, RMSE, and (R^2).
+Plot the regression line.
+Plot residuals.
+Add another input feature and train a multiple regression model.
+Compare simple and multiple regression performance.
+Investigate the effect of adding an outlier.
+
+
+Question-2:
+# Create the dataset
+data = {
+    'Hours_Studied': [2, 4, 6, 8, 10],
+    'Classes_Attended': [3, 4, 5, 6, 8],
+    'Final_Score': [65, 70, 75, 85, 95]
+}
+
+Use Ordinary Least Squares (OLS) model
+Predict final score for a new student who studied 7 hours and attended 5 classes
+
+
+Question-3:
+
+Student performance prediction
+
+Problem statement: Develop a multiple linear regression model to predict students’ final marks.
+
+Suggested variables
+
+Study hours per week
+Attendance percentage
+Assignment average
+Internal examination mark
+Sleep duration
+Final mark
+
+Tasks
+
+Import the dataset.
+Perform descriptive analysis.
+Check missing values.
+Visualize correlations.
+Separate inputs and output.
+Split the data into training and testing sets.
+Train a multiple linear regression model.
+Evaluate it using MAE, RMSE, \(R^2\), and adjusted \(R^2\).
+Plot actual versus predicted marks.
+Examine residuals.
+Interpret the coefficients.
+Discuss the model’s limitations.
+
+Expected deliverables
+
+Python program or Jupyter Notebook
+Dataset
+Graphs
+Evaluation results
+Interpretation of coefficients
+Conclusion and limitations
